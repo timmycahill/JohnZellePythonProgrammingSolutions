@@ -19,7 +19,7 @@ def main():
     die1 = DieView(win, Point(3, 7), 2)
     die2 = DieView(win, Point(7, 7), 2)
     rollButton = Button(win, Point(5,4.5), 6, 1, "Roll Dice")
-    rollButton.active()
+    rollButton.activate()
     quitButton = Button(win, Point(5,1), 2, 1, "Quit")
 
     # Event loop

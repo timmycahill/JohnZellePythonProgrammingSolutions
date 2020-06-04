@@ -63,16 +63,16 @@ class DieView:
         elif value == 2:
             self.pip1.setFill(self.foreground)
             self.pip7.setFill(self.foreground)
-        elif value == 2:
+        elif value == 3:
             self.pip1.setFill(self.foreground)
             self.pip7.setFill(self.foreground)
             self.pip4.setFill(self.foreground)
-        elif value == 2:
+        elif value == 4:
             self.pip1.setFill(self.foreground)
             self.pip3.setFill(self.foreground)
             self.pip5.setFill(self.foreground)
             self.pip7.setFill(self.foreground)
-        elif value == 2:
+        elif value == 5:
             self.pip1.setFill(self.foreground)
             self.pip3.setFill(self.foreground)
             self.pip4.setFill(self.foreground)
