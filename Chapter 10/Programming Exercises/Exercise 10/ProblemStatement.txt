@@ -1,0 +1,2 @@
+Same as the previous problem, but for a cube. The constructor should accept the
+length of a side as a parameter.

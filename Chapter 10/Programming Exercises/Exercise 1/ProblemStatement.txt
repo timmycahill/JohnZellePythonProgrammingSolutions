@@ -1,0 +1,2 @@
+Modify the cannonball simulation from the chapter so that it also calculates
+the maximum height achieved by the cannonball.

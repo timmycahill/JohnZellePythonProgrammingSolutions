@@ -1,0 +1,4 @@
+Extend the previous exercise by implementing an addLetterGrade method. This is
+similar to addGrade except that it accepts a letter grade as a string (instead
+of a gradepoint). Use the updated class to improve the GPA calculator by allowing
+the entry of letter grades.

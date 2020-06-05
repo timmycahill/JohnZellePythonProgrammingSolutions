@@ -20,6 +20,7 @@ class Projectile:
         theta = radians(angle)
         self.xvel = velocity * cos(theta)
         self.yvel = velocity * sin(theta)
+        self.maxHeight = height + velocity ** 2 * sin(theta) ** 2 / (2 * 9.8)
 
     def update(self, time):
         """Update the state of this projectile to move it time seconds
@@ -36,3 +37,7 @@ class Projectile:
     def getX(self):
         "Returns the x position (distance) of this projectile."
         return self.xpos
+
+    def getMaxHeight(self):
+        "Returns the maximum height achieved by the projectile."
+        return self.maxHeight

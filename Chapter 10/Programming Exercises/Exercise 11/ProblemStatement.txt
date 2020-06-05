@@ -1,0 +1,27 @@
+Implement a class to represent a playing card. Your class should have the following methods:
+
+__init__(self, rank, suit):
+	"rank" is an int in the range 1-13 indicating the ranks Ace-King
+	"suit" is a single character "d", "c", "h", or "s" indicating the suit (diamonds, clubs, hearts, or spades)
+	Create the corresponding card.
+
+getRank(self):
+	Returns the rank of the card.
+
+getSuit(self):
+	Returns the suit of the card.
+
+BJValue(self):
+	Returns the Blackjack value of a card. Ace counts as 1, face cards count as 10.
+
+__str__(self):
+	Returns a string that names the card. For example, "Ace of Spades".
+
+Note: A method named __str__ is special in Python. If asked to convert an object into a string, Python uses this method, if it's present. For example
+
+	c = Card(1,"s")
+	print c
+
+will print "Ace of Spades".
+
+Test your card class with a program that prints out n randomly generated cards and the associated Blackjack value where n is a number supplied by the user.

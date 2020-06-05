@@ -1,0 +1,9 @@
+Write a class to represent the geometric solid sphere. Your class should implement
+the following methods:
+
+__init__(self, radius) Creates a sphere having the given radius.
+getRadius(self) Returns the radius of this sphere.
+surfaceArea(self) Returns the surface area of the sphere.
+volume(self) Returns the volume of the sphere.
+
+Use your new class to solve Programming Exercise 1 from Chapter 3.
