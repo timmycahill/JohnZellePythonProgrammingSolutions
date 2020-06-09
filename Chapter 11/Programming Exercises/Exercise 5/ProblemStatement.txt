@@ -1,0 +1,12 @@
+Most languages do not have the flexible built-in list (array) operations
+that Python has. Write an algorithm for each of the following Python
+operations and test your algorithm by writing it up in a suitable function.
+For example, as a function, reverse(myList) should do the same as 
+myList.reverse(). Obviously, you are not allowed to use the corresponding
+Python method to implement your function.
+
+(a) count(myList, x) : like myList.count(x)
+(b) isin(myList, x) : like x in myList
+(c) index(myList, x) : like myList.index(x)
+(d) reverse(myList) : like myList.reverse()
+(e) sort(myList) : like myList.sort()

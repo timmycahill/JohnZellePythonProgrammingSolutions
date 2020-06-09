@@ -1,0 +1,1 @@
+Extend the program from the previous exercise to accept a file of censored words as another input. The words in the original file that appear in the censored words file are replaced by an appopriate number of "*"s.

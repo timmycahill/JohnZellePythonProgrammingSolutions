@@ -1,0 +1,2 @@
+Write and test a function innerProd(x,y) that computes the inner product of two
+(same length) lists. The inner product of x and y is computed as the sum of xi * yi.
