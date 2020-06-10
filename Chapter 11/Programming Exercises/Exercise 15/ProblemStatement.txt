@@ -1,0 +1,9 @@
+Create a class Deck that represents a deck of cards. your class should have the following methods:
+
+constructor: Creates a new deck of 52 cards in a standard order.
+shuffle: Randomizes the order of the cards.
+dealCard: Returns a single card from the top of the deck and removes the card from 
+			the deck.
+cardsLeft: Returns the number of cards remaining in the deck.
+
+Test your program by having it deal out a sequence of n cards from a shuffled deck where n is a user input. You could also use your deck object to implement a Blackjack simulation where the pool of cards is finite. See Programming Exercises 8 and 9 in Chapter 9.

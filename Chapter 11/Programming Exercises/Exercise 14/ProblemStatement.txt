@@ -1,0 +1,12 @@
+Extend the previous program to analyze a list of five cards as a poker hand. After printing the cards, the program categorizes accordingly.
+
+Royal Flush: 10, Jack, Queen, King, Ace, all of the same suit.
+Straight Flush: 5 ranks in a row, all of the same suit.
+Four of a Kind: Four of the same rank.
+Full House: Three of one rank and two of another.
+Flush: Five cards of the same suit.
+Straight: Five ranks in a row.
+Three of a kind: Three of one rank (but not a full house or four of a kind).
+Two pair: Two each of two different ranks.
+Pair: Two of the same rank (but not two pair, three or four of a kind).
+X High: If none of the previous categories fit, X is the value of the highest rank. 	For example, if the largest rank is 11, the hand is "Jack high."
